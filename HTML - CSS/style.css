@@ -11,32 +11,41 @@
 }
 
 body {
-background-color: rgba(128, 128, 128, 0.5);
+background-color: rgba(56, 56, 56, 0.5);
+}
+
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: inline
+}
+
+
+.logo_nav {
+    width: 1.6%;
+    margin-bottom: -3px;
+}
+
+
+.logo_apple {
+    width: 6%;
 }
 
 .titulo_header {
     padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(68, 68, 68);
-    font-size: 50px;
+    font-size: 60px;
 }   
 
 .paragrafo_header {
+    margin-top: -50px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 45px;
+    padding-left: 50px;
     font-size: 25px;
     color: rgb(68, 68, 68);
     font-weight: bold;
-
-}
-.nav_estilo ul li{
-    display: inline;
-}
-div.nav_bg {
-    background-color: rgb(22, 22, 22);
-}
-
-nav ul li {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(206, 206, 206);
 }
