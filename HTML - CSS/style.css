@@ -52,6 +52,8 @@ nav ul li { display: inline;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 60px;
+    margin: -50px;
+    margin-left: 0px;
 }   
 
 .paragrafo_header {
@@ -116,16 +118,23 @@ div.main_design:hover{
 
 div.design_main {
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    text-align: left; 
-    max-width: 800px;
-    margin: auto;
-    backdrop-filter: blur(10px);
-    z-index: -1;
+    align-items: center;
+    justify-content: flex-end; 
+    max-width: 400px; 
+    height: 400px; 
+    margin-top: 40px; 
     background-color: black;
-    
+    color: white; 
+    margin: 20px;
+    border-radius: 20px;
 }
+div.design_main img {
+    width: 80%; 
+    height: 80%
+
+}
+
+
 
 
 
