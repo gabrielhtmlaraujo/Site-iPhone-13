@@ -42,31 +42,43 @@ nav ul li { display: inline;
     margin-bottom: -3px;
 }
 
-
 .logo_apple {
-    width: 6%;
+    width:  6%;
 }
 
 .titulo_header {
-    padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 60px;
-    margin: -50px;
-    margin-left: 0px;
+    margin: 0;
+    margin-left: 10px; 
 }   
 
 .paragrafo_header {
-    margin-top: -50px;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
+    padding-top: 20px;
     font-size: 25px;
     color: rgb(77, 77, 77);
     font-weight: bold;
     padding-bottom: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.juntar_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_appple {
+    width: 50px;
 }
 
 div.div_header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
     background-color: rgb(0, 0, 0);
     border-radius: 40px;
     margin: 20px;
@@ -120,20 +132,83 @@ div.design_main {
     display: flex;
     align-items: center;
     justify-content: flex-end; 
-    max-width: 400px; 
-    height: 400px; 
+    width: 392px; 
+    height: 392px; 
     margin-top: 40px; 
     background-color: black;
     color: white; 
-    margin: 20px;
+    margin: 40px;
     border-radius: 20px;
 }
 div.design_main img {
-    width: 80%; 
-    height: 80%
+    width: 140%; 
+    height: 100%
 
 }
 
+.segundatexto_main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.p_segundotexto {
+    font-size: 20px;
+}
+
+.design_main:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+
+}
+
+.imagem_cores {
+
+    align-items: center;
+    justify-content: flex-end; 
+    width: 392px; 
+    height: 392px; 
+    margin-top: 40px; 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.imagem_cores img {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.Titulo_cores {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+.texto_cores {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 530;
+}
+
+div.camera_iPhone {
+    align-items: center;
+    justify-content: flex-end; 
+    max-width: 392px; 
+    height: 392px; 
+    margin-top: 40px; 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    margin: 40px;
+    border-radius: 20px;
+    display: flex;
+}
 
 
 
