@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Apple';
+    src: url(../Fontes/DaysOne-Regular.ttf);
+}
+
+body {
+background-color: rgba(56, 56, 56, 0.5);
+}
+
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+nav ul li { display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.letra_nav {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    padding: 10px;
+
+}
+
+#hover_nav:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 10px;    
+    transition-duration: 0.5s;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.logo_nav {
+    width: 23px;
+    margin-bottom: -3px;
+}
+
+.logo_apple {
+    width:  6%;
+}
+
+.titulo_header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin: 0;
+    margin-left: 10px; 
+}   
+
+.paragrafo_header {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.juntar_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_appple {
+    width: 50px;
+}
+
+div.div_header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    margin: 20px;
+    padding: 10px;
+}
+
+div.main_design {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    text-align: left; 
+    max-width: 800px;
+    margin:  auto; 
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    margin: auto;
+}
+
+.iPhone_1 img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px; 
+}
+
+.text {
+    flex: 1; 
+    margin-right: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1{
+    font-size: 40px;
+}
+.text p {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+div.main_design:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+
+
+}
+
+div.design_main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    width: 392px; 
+    height: 392px; 
+    margin-top: 40px; 
+    background-color: black;
+    color: white; 
+    margin: 40px;
+    border-radius: 20px;
+}
+div.design_main img {
+    width: 140%; 
+    height: 100%
+
+}
+
+.segundatexto_main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.p_segundotexto {
+    font-size: 20px;
+}
+
+.design_main:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+
+}
+
+.imagem_cores {
+
+    align-items: center;
+    justify-content: flex-end; 
+    width: 392px; 
+    height: 392px; 
+    margin-top: 40px; 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.imagem_cores:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+
+}
+
+.imagem_cores img {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.Titulo_cores {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+.texto_cores {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 530;
+}
+
+div.camera_iPhone {
+    align-items: center;
+    justify-content: flex-end; 
+    max-width: 392px; 
+    height: 392px; 
+    margin-top: 40px; 
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+    margin: 40px;
+    border-radius: 20px;
+}
+
+
+
+div.camera_iPhone:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+
+.paragrafo_camera {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.texto_camera {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+div.iphone_imagemcam img {
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 5%;
+
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+
+}
+
+div.flexbox_footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.github_foto img {
+    width: 6%;
+    margin: 15px;
+
+}
+.paragrafo_git {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+.paragrafo_git a {
+    text-decoration: none;
+    color: black;
+}
+.titulo_footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 13px;
+    margin: auto;
+    margin-top: auto
+
+}
+
+div.git_completo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.paragrafo_git {
+    padding: 20px;
+    margin-left: -510px;
+    margin-top: 2px;
+}
+
+div.instagram_completo {
+    display: flex;
+    margin-left: auto;
+}
+
+div.instagram_foto img {
+    width:30px;
+    margin: 15px;
+    text-align: center;
+}
+
+.paragrafo_instagram {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-left: -30px;
+}
+
+.paragrafo_instagram a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
